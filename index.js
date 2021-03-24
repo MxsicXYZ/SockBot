@@ -12,7 +12,7 @@ client.on("messageCreate", async(message) => {
     if(message.content === "anal") {
         return message.channel.send("***MACARONI IN ANUS***");
     }
-        if (message.content.toLowerCase().startsWith(process.env.pOne) || message.content.toLowerCase().startsWith(process.env.pTwo)){
+        if (message.content.toLowerCase().startsWith("sockbot") || message.content.toLowerCase().startsWith("sockbot,")){
              console.log(message.content);
           let string = message.content.split(' ').slice(1).join("%20");
           const { body } = await superagent

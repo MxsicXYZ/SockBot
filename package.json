@@ -1,0 +1,26 @@
+{
+  "name": "Guilded-AI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MxsicXYZ/Guilded-AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MxsicXYZ/Guilded-AI/issues"
+  },
+  "homepage": "https://github.com/MxsicXYZ/Guilded-AI#readme",
+  "dependencies": {
+    "@guildedjs/guilded.js": "0.0.6",
+    "dotenv": "^8.2.0",
+    "guilded.js": "github:MxsicXYZ/guilded.js",
+    "superagent": "^6.1.0"
+  }
+}
